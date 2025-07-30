@@ -17,13 +17,13 @@ Roles A🎒, B🥼, and C💍 with tech stack included:
 A:🎒Building & Backend (Streamlit, Python, Git, JSON)
 - Structure App
 - Quiz and explainer logics
-- Oragnize Github project file
+- Organize Github project file
 - Remind of target dates
 
 B:🥼GPT Integration (OpenAI GPT-4 API)
 - Write GPT prompts
 - Set up on/off function of AI-generated explanations
-- Integrate OpenAI API (maybe even a backup systme if API fails)
+- Integrate OpenAI API (maybe even a backup system if API fails)
   
 C:💍Frontend/UX/Design (Figma/draw.io? HTML/CSS)
 - Create UI mockup
@@ -46,13 +46,13 @@ August 6️⃣-9️⃣
 - Add tool/usability tips + GPT interface
 - Connect UI to JSON sample data
 August 1️⃣0️⃣-1️⃣3️⃣
-- Add quizes(JSON or Python)
+- Add quizzes(JSON or Python)
 - (Does our model need to be trained??)
 August 1️⃣4️⃣-1️⃣6️⃣
 - Correct and implement error handling
 - Test, test, test
 - Fix bugs
-- Add cute/fun animations for "completing" taksks or pieces of info
+- Add cute/fun animations for "completing" tasks or pieces of info
 August 1️⃣7️⃣-1️⃣8️⃣
 - Finalize Streamlit deployment
 - Prepare demo ideas
