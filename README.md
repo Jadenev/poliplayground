@@ -36,18 +36,17 @@ August 1️⃣
 - UI mockups
 - JSON structure for bills/laws
 {
-
-"Bill": "H.Con.Res.14",
-
-“Topic”: ”Financial”,
-
-“Subtopic”: “Congressional Budget”,
-
-"Sponser": “Representative Arrington, Jodey C.”,
-
-"Introduced": “02/25”
-
+  "bill_id": "H.Con.Res.14",
+  "date_introduced": "2025-02-25",
+  "topic": "Financial",
+  "subtopic": "Congressional Budget",
+  "sponsor": {
+    "name": "Rep. Jodey C. Arrington",
+    "district": "Texas 19th District",
+    "region": "Midwestern Texas (Lubbock to Abilene)"
+  }
 }
+
  
 - Add bill data samples
 - Finish plan
