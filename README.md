@@ -34,7 +34,21 @@ C:💍Frontend/UX/Design (Figma/draw.io? HTML/CSS)
 Rough timeline plan👩🏽‍💻👩🏼‍💻👨🏽‍💻:
 August 1️⃣ 
 - UI mockups
-- Decide on/Finalize JSON structure for bills/laws
+- JSON structure for bills/laws
+{
+
+"Bill": "H.Con.Res.14",
+
+“Topic”: ”Financial”,
+
+“Subtopic”: “Congressional Budget”,
+
+"Sponser": “Representative Arrington, Jodey C.”,
+
+"Introduced": “02/25”
+
+}
+ 
 - Add bill data samples
 - Finish plan
 August 2️⃣-5️⃣
