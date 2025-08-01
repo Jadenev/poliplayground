@@ -31,7 +31,7 @@ C:💍Frontend/UX/Design (Figma/draw.io? HTML/CSS)
 - Style touches
 - !Working on mobile-first design!
 
-Rough timeline plan👩🏽‍💻👩🏼‍💻👨🏽‍💻:
+Rough timeline plan👩🏽‍💻👩🏼‍💻👨🏽‍💻🧑🏾‍💻:
 August 1️⃣ 
 - UI mockups
 - JSON structure for bills/laws
