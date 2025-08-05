@@ -1,0 +1,68 @@
+[
+  {
+    "bill_id": "H.R. 4393",
+    "date_introduced": "2025-07-15",
+    "topic": "Immigration",
+    "subtopic": "Border Security & Legal Status",
+    "sponsor": {
+      "name": "Rep. Maria Elvira Salazar",
+      "district": "Florida 27th District",
+      "region": "Miami-Dade County"
+    }
+  },
+  {
+    "bill_id": "H.R. 4864",
+    "date_introduced": "2025-08-01",
+    "topic": "Immigration",
+    "subtopic": "End Birthright Citizenship Fraud Act of 2023",
+    "sponsor": {
+      "name": "Rep. Matt Gaetz",
+      "district": "Florida, District 1 115th-118th",
+      "region": "Florida"
+    }
+  },
+  {
+    "bill_id": "H.R. 3486",
+    "date_introduced": "2025-07-17",
+    "topic": "Immigration",
+    "subtopic": "Illegal Entry Act of 2025",
+    "sponsor": {
+      "name": "Rep. Stephanie I. Bice",
+      "district": "Oklahoma, District 5 117th-119th",
+      "region": "Oklahoma"
+    }
+  },
+  {
+    "bill_id": "S. 2681",
+    "date_introduced": "2025-08-02",
+    "topic": "Energy",
+    "subtopic": "Extend the Clean Energy Credits",
+    "sponsor": {
+      "name": "Sen. Charles E. Schumer",
+      "district": "New York 106th-119th",
+      "region": "New York"
+    }
+  },
+  {
+    "bill_id": "S. 2680",
+    "date_introduced": "2025-08-02",
+    "topic": "Crime",
+    "subtopic": "Sentencing Enhancements for offences relating to fraud commited by elected officials",
+    "sponsor": {
+      "name": "Sen. John Cornyn",
+      "district": "Texas 107th-119th",
+      "region": "Texas"
+    }
+  },
+  {
+    "bill_id": "H.R. 4854",
+    "date_introduced": "2025-08-01",
+    "topic": "Government Operations",
+    "subtopic": "reduction in force moratorium at the Department of the Interior Workforce",
+    "sponsor": {
+      "name": "Rep. Jared Huffman",
+      "district": "California, District 2 113th-119th",
+      "region": "California"
+    }
+  }
+]
