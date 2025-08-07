@@ -37,9 +37,9 @@ Rough timeline plan👩🏽‍💻👨🏽‍💻🧑🏾‍💻:
 UI Inspo
 Political Website inspo
 JSON structure for bills/laws { "bill_id": "H.Con.Res.14", "date_introduced": "2025-02-25", "topic": "Financial", "subtopic": "Congressional Budget", "sponsor": { "name": "Rep. Jodey C. Arrington", "district": "Texas 19th District", "region": "Midwestern Texas (Lubbock to Abilene)" } }
-Server created
-UI base created
-Connecting UI and Server
+Server created ☑️
+UI base created ☑️
+Connecting UI and Server ☑️
 
   August 🔟- 1️⃣2️⃣
 ❓Catchup meeting Monday August 11th ❓
@@ -73,4 +73,5 @@ Finalize Streamlit deployment
 ❓ Catchup meeting Saturday August 30th ❓
 Prepare demo ideas
 Now that we have a stunning working project and we finished early, we have time to perfect and improve!
+
 
