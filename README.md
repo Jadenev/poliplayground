@@ -1,15 +1,27 @@
 Quick description 💼:
 Our app is a user-friendly next.js application that helps reduce political apathy. We let users interact with real U.S. bills, legal terms, and thoeretical-political concepts. All without judgement or the pressure to choose!
+
 How to run locally👟:
-Make sure you have Python and Git installed! MAY need to "pip install streamlit"!
-Commands for root terminal:
-- git clone https://github.com/Jadenev/poliplayground.git
-- cd poliplayground
-- python3 -m venv venv
-- source venv/bin/activate  # On Windows use: venv\Scripts\activate
-- pip install -r requirements.txt
-- streamlit run app.py
-(It will auto-launch at http://localhost:8501 or give you a link in the terminal)
+"""
+Make sure you have Python and Git installed!
+
+FOR CLIENT:
+Make sure you cd into client after cloning the project.
+npm install all dependencies into your terminal.
+create a .env file (basically a file that holds any private things we normally don't want plastered onto codebase)
+put this variable into the env file
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8080
+### if your port from the server is different please change it accordingly
+### for example if your server is running on port 5000, you'll get a mismatch error with http://127.0.0.1:8080, it should be http://127.0.0.1:5000 instead.
+
+In the terminal type npm run dev
+and you should see the port that the client shell is running on
+
+FOR SERVER:
+only thing worth noting here is to
+Create another .env file
+enter a variable called PORT and enter any localhost port number you want, some preferable ones are 5000, 5001, 8080
+"""
 
 Tech stack includes:
 
@@ -52,6 +64,7 @@ Tuesday 26th catchup?
 Tie up loose ends
 Demo Ideas
 Last min changes
+
 
 
 
