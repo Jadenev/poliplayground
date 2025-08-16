@@ -31,7 +31,6 @@ export default function Home() {
       <div className="mt-8 flex gap-4">
         <Link href="/about"><button className="bg-[#f0b953] text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-[#f0b953]/70 transition border-2 border-gray-900"> Learn More </button></Link>
       </div>
-
       <footer className="mt-16 text-sm text-gray-900">
         © {new Date().getFullYear()} Legible. All rights reserved.
       </footer>

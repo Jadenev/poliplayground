@@ -2,46 +2,51 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
+import logo from '../../public/legible.svg'; 
 
 /// I'm worried this will need a type
 const nav = [
   { href: '/policyExplorer', label: 'Policy Explorer' },
   { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/legislators', label: 'Legislators' },
+  { href: '/bills', label: 'Bills' },
+  { href: '/committees', label: 'PACs' },
+  { href: '/votes', label: 'Votes' },
+  { href: '/search', label: 'Search' },
+  { href: '/resources', label: 'Resources' },
   { href: '/quiz', label: 'Quiz' }
 ];
-
 /*
-
 Our colors
 #86c1f0
 #f9b5ba
 #a1bfa0
 #f0b953
 #7580ae
-
 Recommended template style
 bg-gray-900
 text-white
 text-amber-300
 text-gray-300 / text-gray-900
-
 */
-
 export default function SideNav() {
   const pathname = usePathname();
 
   return (
     <aside className="h-screen w-64 bg-[#a1bfa0] text-slate-900 border-r border-grey-900">
-      <div className="px-5 py-4 border-b border-grey-900">
+      <div className=" px-5 py-2 border-b border-grey-900">
         <Link href="/" className="group inline-flex items-center gap-2">
         {/*
           <span className="inline-block h-3 w-3 rounded-full bg-[#f0b953]" />
           <span className="inline-block h-3 w-3 rounded-full bg-[#86c1f0]" />
           <span className="inline-block h-3 w-3 rounded-full bg-[#7580ae]" />
         */}
-          <span className="ml-2 text-xl font-semibold group-hover:text-[#454545] transition">
-            Legible
+          <span className="ml-1 text-xl font-semibold group-hover:text-[#454545] transition">
           </span>
+          <Image src={logo} alt="My company logo" width={100} height={100} className="object-cover h-14" />
+
         </Link>
       </div>
 
