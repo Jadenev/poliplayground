@@ -1,69 +1,55 @@
-Quick description 💼:
-Our app is a user-friendly next.js application that helps reduce political apathy. We let users interact with real U.S. bills, legal terms, and thoeretical-political concepts. All without judgement or the pressure to choose!
+<h1> Legible: </h1>
 
-How to run locally👟:
-"""
-Make sure you have Python and Git installed!
+<h2>Tech Stack:</h2> <br>
 
-FOR CLIENT:
-Make sure you cd into client after cloning the project.
-npm install all dependencies into your terminal.
-create a .env file (basically a file that holds any private things we normally don't want plastered onto codebase)
-put this variable into the env file
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8080
-### if your port from the server is different please change it accordingly
-### for example if your server is running on port 5000, you'll get a mismatch error with http://127.0.0.1:8080, it should be http://127.0.0.1:5000 instead.
+![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) 
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) 
 
-In the terminal type npm run dev
-and you should see the port that the client shell is running on
+<h3>Quick description 💼: </h3>
+<p>Legible is a user-friendly next.js application that helps reduce political apathy. We let users interact with real U.S. bills, legal terms, and thoeretical-political concepts. All without judgement or the pressure to choose!</p>
 
-FOR SERVER:
-only thing worth noting here is to
-Create another .env file
-enter a variable called PORT and enter any localhost port number you want, some preferable ones are 5000, 5001, 8080
-"""
+<h3>How to run locally👟: </h3>
 
-Tech stack includes:
+<h4>FOR CLIENT: </h4>
+<p> cd into the client folder </p>
 
-(next.js, Python, Git, JSON)
-Need to do:
-- Explainer/AI logics
-- Re-Organize Github project file
-- GPT Integration (OpenAI GPT-4 API or gemini)
-- Write GPT prompts
-- Implement congress.govAPI
-- Scrape cornell/wex site
-- Chatbot
-  
-C:💍Frontend/UX/Design (HTML/CSS)
-Rough timeline plan👩🏽‍💻👨🏽‍💻🧑🏾‍💻: 
+```bash 
+  cd client
+```
 
-  August 13-16
-Friday 15th catchup meeting?
-Maybe csv files for API and scraped info
-Choose what info is wanted from scraped data
-Server created ☑️
-Connecting UI and Server ☑️
+<p> Install all dependencies into your terminal. </p>
 
-August 1️7 -19
-Tuesday 19th catchup meeting?
-Connect UI to data
-Work on GPT/AI simplifier
-Test bill loader with AI summary
-Add user tool/usability tips 
-+ GPT interface
+```bash
+  npm install
+```
+<p> Create a .env file and include the following variable within the root directory of your client folder</p>
 
- August 20-22
- Friday 22nd catchup?
-Find out what needs fixings/debuggings
-Make solid projection for MVP
+```bash
+  NEXT_PUBLIC_API_URL=
+```
+<p> Input the URL your backend server is running locally within this variable.</p>
+
+<p> Run the client shell using the following command </p>
+
+```bash
+  npm run dev
+```
+
+<h4>FOR SERVER:</h4>
+
+<p> Create a .env file and include the following variable within the root directory of your server folder</p>
+
+```bash
+  PORT=
+```
+<p> Input a PORT number for the backend server to run on.</p>
+
+<h3> Contributers: </h3>
+<p> Jade </p>
+<p> Ismaeel </p>
+<p> Yared </p>
 
 
-August 23-27
-Tuesday 26th catchup?
-Tie up loose ends
-Demo Ideas
-Last min changes
 
 
 
